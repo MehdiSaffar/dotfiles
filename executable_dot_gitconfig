@@ -1,0 +1,8 @@
+[user]
+	email = saffar.mehdi3@gmail.com
+	name = Mehdi Saffar
+	signingkey = D1DA95F0FA503240
+[alias]
+	sweep = !git branch --merged $([[ $1 != \"-f\" ]] \\\n&& git rev-parse master) | egrep -v \"(^\\*|^\\s*(master|develop)$)\" \\\n| xargs git branch -d
+[push]
+	default = current

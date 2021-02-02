@@ -1,0 +1,21 @@
+echo "Running .bash_profile"
+
+# enable autojump
+. /usr/share/autojump/autojump.sh
+
+# Android
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+# Rust
+export PATH="$HOME/.cargo/bin:$PATH"
+
+# CMPE443 stuff
+export PATH="~/Downloads/CmpE443QemuV1.2/:$PATH"
+export PATH="~/Downloads/CmpE443QemuV1.2/arm-softmmu:$PATH"
+export QEMU_PATH="~/Downloads/CmpE443QemuV1.2/arm-softmmu/qemu-system-arm"
+
+nvm use default

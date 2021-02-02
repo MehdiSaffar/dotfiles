@@ -1,0 +1,55 @@
+echo "Running .zshenv"
+# Rust
+export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$HOME/Downloads/gpsbabel-1.6.0:$PATH"
+export PATH="$HOME/Downloads/cmake-3.16.4-Linux-x86_64/bin:$PATH"
+export PATH="$HOME/github/gpxtools:$PATH"
+export PATH="$HOME/osmosis/bin:$PATH"
+export PATH="$HOME/MATLAB/R2019b/bin:$PATH"
+
+# Android
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+
+# CMPE 443 stuff
+export PATH="$HOME/Downloads/cmpe443_qemu/:$PATH"
+export PATH="$HOME/Downloads/cmpe443_qemu/arm-softmmu:$PATH"
+export QEMU_PATH="$HOME/Downloads/cmpe443_qemu/arm-softmmu/qemu-system-arm"
+export PATH="$HOME/Downloads/LPC4088_Visualizer:$PATH"
+
+# export PATH="$HOME/Downloads/watchman/linux/bin:$PATH"
+
+# Ruby gems
+# export PATH="$HOME/.rbenv/bin:$PATH"
+# eval "$(rbenv init -)"
+
+# Snap packages
+# export PATH="/snap/bin:$PATH"
+
+# export PATH="$HOME/Downloads/chromedriver_linux64:$PATH"
+# export PATH="$HOME/.local/bin:$PATH"
+
+# NVIDIA CUDA Toolkit
+# export PATH=/usr/local/cuda-9.0/bin:$PATH
+# export PATH="$ZSH_CUSTOM/plugins/navi:$PATH"
+# export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64
+
+# CQuery
+# export PATH="$HOME/cquery/build/release/bin:$PATH"
+
+# Python: virtualenv and virtualenvwrapper
+# export WORKON_HOME=$HOME/.virtualenvs
+# export VIRTUALENVWRAPPER_PYTHON=`which python3`
+# source /usr/local/bin/virtualenvwrapper.sh
+
+# Golang
+# export GOPATH=$HOME/go
+
+# Setting text editor
+export EDITOR=nvim
+export VISUAL=nvim
+
